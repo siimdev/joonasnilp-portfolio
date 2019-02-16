@@ -4,8 +4,8 @@ import React from "react";
 export default props => {
   return (
     <section id="videod">
-      <hr />
-      <h3>Millega tegelen</h3>
+
+
       <div className="container">
         <div className="row">
           <div className="col s12 l4">

@@ -119,15 +119,15 @@ export default class NavBar extends Component {
                   Portfolio
               </Link>
               </li>
-              
+
               <li>
                 <a className="nav-text" onClick={this.closeNav} href="./#about">
                   Minust
                 </a>
               </li>
               <li>
-                <a className="nav-text" onClick={this.closeNav} href="./#videod">
-                  Näited
+                <a className="nav-text" onClick={this.closeNav} href="./#skills">
+                  Millega tegelen
                 </a>
               </li>
               <li>
@@ -164,7 +164,7 @@ export default class NavBar extends Component {
                 </a>
               </li>
               <li>
-                <a className="nav-text" href="./#videod">
+                <a className="nav-text" href="./#skills">
                   Millega tegelen
                 </a>
               </li>

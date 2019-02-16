@@ -56,7 +56,7 @@ export default props => {
                 Telefon:
                 <strong>+372 58137312</strong>
               </p>
-              <p>&copy; 2018 JoonasNilp.ee</p>
+              <p>&copy; 2019 JoonasNilp.ee</p>
               <p>
                 {/* <a href="#lehe_algus" id="tagasi-ules">
                   Tagasi üles

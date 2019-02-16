@@ -7,8 +7,9 @@ export default props => {
   return (
     <section id="skills">
       <div className="millegaTeglen">
-        <h3>Millega ma tegelen</h3>
         <hr />
+        <h3>Millega ma tegelen</h3>
+
         <div className="row">
           <div className="col s12 l4">
             <div className="background-text text-faded ">
