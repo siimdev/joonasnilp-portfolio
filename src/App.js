@@ -132,7 +132,7 @@ class App extends Component {
                   <LandingPage />
                   <section id="work">
                     <hr />
-                    <h3>Fotod</h3>
+
                     <div>
                       <Gallery photos={photos} onClick={this.openLightbox} />
                       <Lightbox

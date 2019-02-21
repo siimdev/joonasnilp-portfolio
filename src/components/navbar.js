@@ -127,7 +127,7 @@ export default class NavBar extends Component {
               </li>
               <li>
                 <a className="nav-text" onClick={this.closeNav} href="./#skills">
-                  Millega tegelen
+                  Näited
                 </a>
               </li>
               <li>
