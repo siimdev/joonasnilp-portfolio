@@ -336,3 +336,7 @@ video {
 .hide-false {
   display: block;
 }
+
+.tekst-valge {
+  color: white!important;
+}

@@ -11,6 +11,7 @@ export default props => {
         {/* <h1>JoonasNilp</h1> */}
         <img src={logo} alt="JoonasNilp" />
       </div>
+      <hr />
     </div>
   );
 };
