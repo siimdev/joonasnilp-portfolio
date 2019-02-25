@@ -1,56 +1,74 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import Gallery from "react-photo-gallery";
 import Lightbox from "react-images";
+
+import pilt1 from "../assets/images/esileht/1.jpg";
+import pilt2 from "../assets/images/esileht/2.jpg";
+import pilt3 from "../assets/images/esileht/3.jpg";
+import pilt4 from "../assets/images/esileht/4.jpg";
+import pilt5 from "../assets/images/esileht/5.jpg";
+import pilt6 from "../assets/images/esileht/6.jpg";
+import pilt7 from "../assets/images/esileht/7.jpg";
+import pilt8 from "../assets/images/esileht/8.jpg";
+import pilt9 from "../assets/images/esileht/9.jpg";
 
 // galerii osa start
 const photos = [
   {
-    src: "https://failid.joonasnilp.ee/esilehepildid_edit/1.jpg",
+    src: {pilt1},
     width: 4,
-    height: 3
+    height: 3,
+    alt: "Pilt"
   },
   {
-    src: "https://failid.joonasnilp.ee/esilehepildid_edit/2.jpg",
+    src: {pilt2},
     width: 3,
-    height: 4
+    height: 4,
+    alt: "Pilt"
   },
   {
-    src: "https://failid.joonasnilp.ee/esilehepildid_edit/3.jpg",
+    src: {pilt3},
     width: 3,
-    height: 4
+    height: 4,
+    alt: "Pilt"
   },
   {
-    src: "https://failid.joonasnilp.ee/esilehepildid_edit/4.jpg",
+    src: {pilt4},
     width: 4,
-    height: 3
+    height: 3,
+    alt: "Pilt"
   },
   {
-    src: "https://failid.joonasnilp.ee/esilehepildid_edit/5.jpg",
+    src: {pilt5},
     width: 3,
-    height: 4
+    height: 4,
+    alt: "Pilt"
   },
   {
-    src: "https://failid.joonasnilp.ee/esilehepildid_edit/6.jpg",
+    src: {pilt6},
     width: 4,
-    height: 3
+    height: 3,
+    alt: "Pilt"
   },
   {
-    src: "https://failid.joonasnilp.ee/esilehepildid_edit/7.jpg",
+    src: {pilt7},
     width: 3,
-    height: 4
+    height: 4,
+    alt: "Pilt"
   },
   {
-    src: "https://failid.joonasnilp.ee/esilehepildid_edit/8.jpg",
+    src: {pilt8},
     width: 4,
-    height: 3
+    height: 3,
+    alt: "Pilt"
   },
   {
-    src: "https://failid.joonasnilp.ee/esilehepildid_edit/9.jpg",
+    src: {pilt9},
     width: 4,
-    height: 3
+    height: 3,
+    alt: "Pilt"
   }
 ];
-
 
 class Galerii extends Component {
   constructor() {
@@ -97,7 +115,7 @@ class Galerii extends Component {
             onClickNext={this.gotoNext}
             currentImage={this.state.currentImage}
             isOpen={this.state.lightboxIsOpen}
-            imageCountSeparator={" / "}
+            imageCountSeparator={" - "}
             backdropClosesModal={true}
             leftArrowTitle={"Liigu vasakule"}
             rightArrowTitle={"Liigu paremale"}
@@ -105,7 +123,7 @@ class Galerii extends Component {
           />
         </div>
       </section>
-    )
+    );
   }
 }
 
