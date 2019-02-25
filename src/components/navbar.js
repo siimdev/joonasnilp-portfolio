@@ -71,7 +71,6 @@ export default class NavBar extends Component {
     });
   }
   toggle() {
-    // alert("Hello! I am an alert box!!");
     this.setState({
       shown: !this.state.shown
     });
@@ -86,7 +85,7 @@ export default class NavBar extends Component {
       navbar = (
         <nav>
           <div ref={this.setWrapperRef} className="nav-wrapper container">
-            <a className="nav-text-name center brand-logo" href="./#algus">
+            <a className="nav-text-name center brand-logo" href="./">
               Joonas Nilp
             </a>
             <a className="button-collapse" onClick={this.openNav}>
@@ -104,11 +103,7 @@ export default class NavBar extends Component {
                   onMouseEnter={this.closeHover.bind(this)}
                   onMouseLeave={this.closeNotHover.bind(this)}
                 >
-                  <i
-                    className={`${
-                      closeHover ? "white-color" : "black-color"
-                      } material-icons left sideNavClose`}
-                  >
+                  <i className={`${closeHover ? "white-color" : "black-color"} material-icons left sideNavClose`}>
                     close
                   </i>
                 </a>
@@ -121,17 +116,17 @@ export default class NavBar extends Component {
               </li>
 
               <li>
-                <a className="nav-text" onClick={this.closeNav} href="./#about">
+                <a className="nav-text" onClick={this.closeNav} href="./#minust">
                   Minust
                 </a>
               </li>
               <li>
-                <a className="nav-text" onClick={this.closeNav} href="./#skills">
+                <a className="nav-text" onClick={this.closeNav} href="./#millegaTegelen">
                   Näited
                 </a>
               </li>
               <li>
-                <a className="nav-text" onClick={this.closeNav} href="./#footer">
+                <a className="nav-text" onClick={this.closeNav} href="./#kontakt">
                   Kontakt
                 </a>
               </li>
@@ -159,17 +154,17 @@ export default class NavBar extends Component {
               </li>
 
               <li>
-                <a className="nav-text" href="./#about">
+                <a className="nav-text" href="./#minust">
                   Minust
                 </a>
               </li>
               <li>
-                <a className="nav-text" href="./#skills">
+                <a className="nav-text" href="./#millegaTegelen">
                   Millega tegelen
                 </a>
               </li>
               <li>
-                <a className="nav-text" href="./#footer">
+                <a className="nav-text" href="./#kontakt">
                   Kontakt
                 </a>
               </li>

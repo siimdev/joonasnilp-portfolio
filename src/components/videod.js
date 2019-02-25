@@ -1,5 +1,4 @@
 import React from "react";
-// import htmlLogo from "../assets/images/skills/fotokas.png";
 
 export default props => {
   return (

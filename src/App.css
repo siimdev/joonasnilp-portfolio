@@ -167,7 +167,7 @@ hr.sub {
   object-fit: cover;
 }
 
-#about {
+#minust {
   background-color: #607d8b;
 }
 
@@ -195,9 +195,9 @@ p.text-faded {
   margin-bottom: 5%;
 }
 
-.skills > img {
+/* .millegaTegelen > img {
   width: 50%;
-}
+} */
 
 .material-icons.prefix.active {
   color: #607d8b;
@@ -227,7 +227,6 @@ form > .row {
 
 .minuPilt {
   margin: auto;
-  width: 50%;
 }
 
 #videod {
@@ -281,9 +280,9 @@ form > .row {
   .skillsText {
     margin-top: 2%;
   }
-  .minuPilt {
+  /* .minuPilt {
     width: 90%;
-  }
+  } */
 }
 
 .video-container {
@@ -340,3 +339,9 @@ video {
 .tekst-valge {
   color: white!important;
 }
+
+.modalPilt{
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+

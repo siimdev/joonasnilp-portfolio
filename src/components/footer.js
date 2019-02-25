@@ -6,7 +6,7 @@ import youtubeLogo from "../assets/images/footer/youtube.svg";
 
 export default props => {
   return (
-    <section id="footer" className="footer">
+    <section id="kontakt" className="footer">
       <div className="container">
         <div className="row">
           <div className="col s12">
@@ -58,9 +58,6 @@ export default props => {
               </p>
               <p>&copy; 2019 JoonasNilp.ee</p>
               <p>
-                {/* <a href="#lehe_algus" id="tagasi-ules">
-                  Tagasi üles
-                </a> */}
               </p>
             </div>
           </div>

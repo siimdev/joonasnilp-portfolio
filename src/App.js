@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, } from "react-router-dom";
 import "../node_modules/materialize-css/dist/css/materialize.min.css";
 import "../node_modules/materialize-css/dist/js/materialize.min.js";
-import "../node_modules/react-responsive-carousel/lib/styles/carousel.min.css";
+// import "../node_modules/react-responsive-carousel/lib/styles/carousel.min.css";
 import "./App.css";
 import NavBar from "./components/navbar";
 import StartLeht from "./components/start_leht";
@@ -20,6 +20,7 @@ function AlgusVideo() {
   }
   return null;
 }
+
 
 class App extends Component {
   render() {

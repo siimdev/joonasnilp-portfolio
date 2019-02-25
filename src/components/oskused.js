@@ -2,16 +2,16 @@ import React from "react";
 import portree from "../assets/images/esileht/portree.jpg";
 import droon1 from "../assets/images/esileht/droon.jpg";
 import uritus1 from "../assets/images/esileht/uritus.jpg";
-import { Button, Modal } from 'react-materialize'
+import { Button, Modal, } from "react-materialize";
 import Droonifotod from "./droonifotod";
-
 
 export default props => {
   return (
-    <section id="skills">
-      <div className="millegaTeglen">
+    <section id="millegaTegelen">
+      <div className="container millegaTeglen">
         <hr />
         <h3>Millega ma tegelen</h3>
+
         {/* kaart */}
         <div className="row">
           <div className="col s12 l4">
@@ -43,10 +43,16 @@ export default props => {
                 </div>
                 <div className="card-action">
                   <Modal
+                    header='Droonifotod ja Videod'
                     trigger={<Button>Vaata näiteid</Button>}
-                    actions={<Button className="waves-effect waves-light btn-flat modal-action modal-close tekst-valge">Sulge</Button>}>
+                    fixedFooter
+                    actions={
+                      <Button className="waves-effect waves-light btn-flat modal-action modal-close tekst-valge">
+                        Sulge
+                      </Button>
+                    }
+                  >
                     <Droonifotod />
-
                   </Modal>
                 </div>
               </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import video1 from "../assets/videod/insta_m.mp4";
 import logo from "../assets/images/landing/intro.png";
+
 export default props => {
   return (
     <div id="algus" className="video-container">
