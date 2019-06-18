@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 
 export default class NavBar extends Component {
   constructor(props) {
@@ -108,12 +108,12 @@ export default class NavBar extends Component {
                   </i>
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <Link className="nav-text" to="/meedia">
                   {" "}
                   Portfolio
               </Link>
-              </li>
+              </li> */}
 
               <li>
                 <a className="nav-text" onClick={this.closeNav} href="./#minust">
@@ -146,12 +146,12 @@ export default class NavBar extends Component {
               onClick={() => this.toggle()}
             >
 
-              <li>
+              {/* <li>
                 <Link className="nav-text" to="/meedia">
                   {" "}
                   Portfolio
               </Link>
-              </li>
+              </li> */}
 
               <li>
                 <a className="nav-text" href="./#minust">

@@ -10,7 +10,7 @@ import About from "./components/minust";
 import Skills from "./components/oskused";
 import Videod from "./components/videod";
 import Footer from "./components/footer";
-import Portfolio from "./components/portfolio";
+// import Portfolio from "./components/portfolio";
 import Galerii from "./components/galerii";
 
 // mobiili osa
@@ -42,7 +42,7 @@ class App extends Component {
               </div>
             )}
           />
-          <Route path="/meedia" component={Portfolio} />
+          {/* <Route path="/meedia" component={Portfolio} /> */}
         </div>
       </Router>
     );

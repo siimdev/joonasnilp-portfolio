@@ -2,15 +2,15 @@ import React, { Component } from "react";
 import Gallery from "react-photo-gallery";
 import Lightbox from "react-images";
 
-// import pilt1 from '../assets/images/esileht/1.jpg';
-// import pilt2 from '../assets/images/esileht/2.jpg';
-// import pilt3 from '../assets/images/esileht/3.jpg';
-// import pilt4 from '../assets/images/esileht/4.jpg';
-// import pilt5 from '../assets/images/esileht/5.jpg';
-// import pilt6 from '../assets/images/esileht/6.jpg';
-// import pilt7 from '../assets/images/esileht/7.jpg';
-// import pilt8 from '../assets/images/esileht/8.jpg';
-// import pilt9 from '../assets/images/esileht/9.jpg';
+// import pilt1 from "../assets/images/esileht/1.jpg";
+// import pilt2 from "../assets/images/esileht/2.jpg";
+// import pilt3 from "../assets/images/esileht/3.jpg";
+// import pilt4 from "../assets/images/esileht/4.jpg";
+// import pilt5 from "../assets/images/esileht/5.jpg";
+// import pilt6 from "../assets/images/esileht/6.jpg";
+// import pilt7 from "../assets/images/esileht/7.jpg";
+// import pilt8 from "../assets/images/esileht/8.jpg";
+// import pilt9 from "../assets/images/esileht/9.jpg";
 
 
 // galerii osa start
