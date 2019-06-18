@@ -12,7 +12,6 @@ import Lightbox from "react-images";
 // import pilt8 from "../assets/images/esileht/8.jpg";
 // import pilt9 from "../assets/images/esileht/9.jpg";
 
-
 // galerii osa start
 const photos = [
   {
@@ -62,7 +61,6 @@ const photos = [
   }
 ];
 
-
 function columns(containerWidth) {
   let columns = 3;
   // if (containerWidth >= 1600) columns = 4;
@@ -102,13 +100,15 @@ class Galerii extends Component {
     });
   }
 
-  
-
   render() {
     return (
       <section id="work">
         <div>
-          <Gallery photos={photos} onClick={this.openLightbox} columns={columns}/>
+          <Gallery
+            photos={photos}
+            onClick={this.openLightbox}
+            columns={columns}
+          />
           <Lightbox
             images={photos}
             onClose={this.closeLightbox}

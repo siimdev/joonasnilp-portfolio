@@ -85,7 +85,7 @@ export default class NavBar extends Component {
       navbar = (
         <nav>
           <div ref={this.setWrapperRef} className="nav-wrapper container">
-            <a className="nav-text-name center brand-logo" href="./">
+            <a className="nav-text-name center brand-logo" href="./#">
               Joonas Nilp
             </a>
             <a className="button-collapse" onClick={this.openNav}>
@@ -103,7 +103,11 @@ export default class NavBar extends Component {
                   onMouseEnter={this.closeHover.bind(this)}
                   onMouseLeave={this.closeNotHover.bind(this)}
                 >
-                  <i className={`${closeHover ? "white-color" : "black-color"} material-icons left sideNavClose`}>
+                  <i
+                    className={`${
+                      closeHover ? "white-color" : "black-color"
+                    } material-icons left sideNavClose`}
+                  >
                     close
                   </i>
                 </a>
@@ -115,7 +119,7 @@ export default class NavBar extends Component {
               </Link>
               </li> */}
 
-              <li>
+              {/* <li>
                 <a className="nav-text" onClick={this.closeNav} href="./#minust">
                   Minust
                 </a>
@@ -124,9 +128,13 @@ export default class NavBar extends Component {
                 <a className="nav-text" onClick={this.closeNav} href="./#millegaTegelen">
                   Näited
                 </a>
-              </li>
+              </li> */}
               <li>
-                <a className="nav-text" onClick={this.closeNav} href="./#kontakt">
+                <a
+                  className="nav-text"
+                  onClick={this.closeNav}
+                  href="./#kontakt"
+                >
                   Kontakt
                 </a>
               </li>
@@ -138,14 +146,13 @@ export default class NavBar extends Component {
       navbar = (
         <nav>
           <div className="nav-wrapper container">
-            <a className="nav-text-name" href="./#algus" role="button">
+            <a className="nav-text-name" href="./#" role="button">
               Joonas Nilp
             </a>
             <ul
               className="right hide-on-sm-and-down"
               onClick={() => this.toggle()}
             >
-
               {/* <li>
                 <Link className="nav-text" to="/meedia">
                   {" "}
@@ -153,7 +160,7 @@ export default class NavBar extends Component {
               </Link>
               </li> */}
 
-              <li>
+              {/* <li>
                 <a className="nav-text" href="./#minust">
                   Minust
                 </a>
@@ -162,7 +169,7 @@ export default class NavBar extends Component {
                 <a className="nav-text" href="./#millegaTegelen">
                   Millega tegelen
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a className="nav-text" href="./#kontakt">
                   Kontakt
